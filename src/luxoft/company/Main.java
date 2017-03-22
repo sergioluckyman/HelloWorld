@@ -6,7 +6,10 @@ import luxoft.GarbageCollector.GBExample;
 import luxoft.JavaOOP.Transponer;
 import luxoft.JavaOOP.CharArray;
 import luxoft.zoo.Duck;
+import luxoft.zoo.Cat;
 import luxoft.zoo.Cell;
+import luxoft.zoo.ZooGarden;
+
 public class Main {
     private NewClass newClass = new NewClass();
 
@@ -42,6 +45,7 @@ public class Main {
         CharArray charArray = new CharArray();
         System.out.println(charArray.digitHater(s));
         */
+        /*
         Duck  duck = new Duck();
         duck.setAge(10);
         duck.setName("Donald");
@@ -52,7 +56,8 @@ public class Main {
         duck.land();
         duck.produceSound();
         duck.takeoff();
-
+        */
+        /*
         Duck  duck2 = new Duck();
         duck2.setAge(15);
         duck2.setName("Scrudge");
@@ -64,10 +69,31 @@ public class Main {
         duck2.produceSound();
         duck2.takeoff();
         System.out.println();
-        Cell cell = new Cell();
+        */
+        /*Cell cell = new Cell();
         cell.placeAnimal(duck);
-        System.out.println(cell.getAnimalName());
+        System.out.println("Animal in the cell is " + cell.getAnimalName());
         cell.empty();
+        System.out.println();
+        Cat cat = new Cat();
+        cat.setAge(15);
+        cat.setName("cat Vasya");
+        cat.eat();
+        cat.produceSound();
+        cell.placeAnimal(cat);
+        */
+        ZooGarden  zooGarden = new ZooGarden();
+        for (int i=0; i<5; i++)
+        {
+            Cell cell = new Cell();
+            zooGarden.addCell(cell);
+            Duck  duck = new Duck();
+            duck.setAge(i);
+            duck.setName("Donald" + i);
+            cell.placeAnimal(duck);
+            cell.placeAnimal(duck);
+        }
+        zooGarden.printNames();
     }
 
     public static void hello() {
