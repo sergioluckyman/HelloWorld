@@ -66,7 +66,7 @@ public class Main {
         System.out.println();
         Cell cell = new Cell();
         cell.placeAnimal(duck);
-        cell.getAnimalName();
+        System.out.println(cell.getAnimalName());
         cell.empty();
     }
 
