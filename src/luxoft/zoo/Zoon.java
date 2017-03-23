@@ -1,6 +1,10 @@
 package luxoft.zoo;
 
 public abstract class Zoon {
+    Zoon()
+    {
+        System.out.println("Zoon constructor");
+    }
     private int age;
 
     public int getAge() {
@@ -12,7 +16,7 @@ public abstract class Zoon {
     }
 
     private String name;
-    public void setName(String name) {
+    void setName(String name) {
         this.name = name;
     }
 

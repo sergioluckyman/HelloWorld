@@ -7,7 +7,16 @@ public class Aircraft implements Flyer
     //implements Flyer
     public void fly()
     {
-        System.out.println("Duck is fly");
+        fly(3);
+    }
+    public void fly(int height)
+    {
+        System.out.println("Duck is fly. Height = " + height);
+    }
+
+    public void fly(int height, int weight)
+    {
+        System.out.println("Duck is fly. Height = " + height + " Weight = " + weight);
     }
     public void land()
     {

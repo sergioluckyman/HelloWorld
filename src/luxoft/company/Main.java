@@ -82,7 +82,7 @@ public class Main {
         cat.produceSound();
         cell.placeAnimal(cat);
         */
-        ZooGarden  zooGarden = new ZooGarden();
+       /* ZooGarden  zooGarden = new ZooGarden();
         for (int i=0; i<5; i++)
         {
             Cell cell = new Cell();
@@ -93,7 +93,23 @@ public class Main {
             cell.placeAnimal(duck);
             cell.placeAnimal(duck);
         }
-        zooGarden.printNames();
+        zooGarden.printNames();*/
+
+        /*Duck  duck = new Duck();
+        duck.setAge(10);
+        duck.setName("Donald");
+        System.out.println(duck.getAge());
+        System.out.println(duck.getName());
+        duck.eat();
+        duck.fly();
+        duck.fly(5);
+        duck.fly(8,10);
+        duck.land();
+        duck.produceSound();
+        duck.takeoff();*/
+
+        Cat cat = new Cat("Vasya");
+        System.out.println(cat.getName());
     }
 
     public static void hello() {
