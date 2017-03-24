@@ -15,8 +15,6 @@ public class Main {
 
     public static void main(String[] args)
     {
-
-
         //hello();
 
         //work_with_array();
@@ -121,7 +119,7 @@ public class Main {
         System.out.println("Hello, Main!");
 
     }
-    public static void work_with_array() {
+    /*public static void work_with_array() {
 
         int[] nums = {1, 2,3,4,5};
         System.out.println("nums.length " + nums.length);
@@ -155,7 +153,7 @@ public class Main {
         System.out.println("b " + b);
         System.out.println("a[0] " + a[0]);
         System.out.println("a[1] " + a[1]);
-        /*      */
+        *//*      *//*
         b = 1;
         System.out.println("b " + b);
         System.out.println("a[0] " + a[0]);
@@ -177,7 +175,7 @@ public class Main {
             System.out.println("xx = " +  xx);
         }
 
-    }
+    }*/
     /**
      * Created by red6 on 3/14/2017.
      */
