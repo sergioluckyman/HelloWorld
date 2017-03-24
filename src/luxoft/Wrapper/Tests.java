@@ -4,11 +4,13 @@ package luxoft.Wrapper;
  * Created by red6 on 3/24/2017.
  */
 public class Tests {
+    int I;
     public void test() {
         String s = "abc";
         String s1 = "abc";
         String s3 = new String("abc");
-
+        int i=0;
+        System.out.println("this.I = " + this.I);
         if (s==s1)
         {
             System.out.println("s = s1");
