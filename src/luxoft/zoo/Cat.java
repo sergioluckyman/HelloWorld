@@ -1,12 +1,18 @@
 package luxoft.zoo;
 
 public class Cat extends  Zoon{
+    private String color;
     //extends Zoon
     public  Cat(String name)
     {
-        super();
+        super(name);
         System.out.println("Cat's constructor");
-        this.setName(name);
+    }
+    public  Cat(String name, String color)
+    {
+        this(name);
+        this.color = color;
+        System.out.println("I am " + this.color);
     }
     public void produceSound()
     {

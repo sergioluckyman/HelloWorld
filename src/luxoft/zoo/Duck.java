@@ -2,6 +2,14 @@ package luxoft.zoo;
 
 public class Duck extends Zoon implements Flyer{
     //extends Zoon
+    public Duck(String name, int age)
+    {
+        super(name, age);
+    }
+    public Duck(String name)
+    {
+        this(name, 0);
+    }
     public void produceSound()
     {
         System.out.println("Duck is crya-crya");
