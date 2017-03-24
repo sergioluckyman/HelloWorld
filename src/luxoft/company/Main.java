@@ -88,7 +88,7 @@ public class Main {
             Duck  duck = new Duck("duck" + i,i);
 
             cell.placeAnimal(duck);
-            //cell.placeAnimal(duck);
+            cell.placeAnimal(duck);
             System.out.println();
         }
         zooGarden.printNames();
