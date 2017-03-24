@@ -4,7 +4,7 @@ package luxoft.Wrapper;
  * Created by red6 on 3/24/2017.
  */
 public class Tests {
-    int I;
+    public final int I = 0;
     public void test() {
         String s = "abc";
         String s1 = "abc";

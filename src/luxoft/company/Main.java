@@ -114,6 +114,7 @@ public class Main {
         */
  Tests tests = new Tests();
  tests.test();
+ //tests.I = 9; //error I is final
     }
 
     public static void hello() {
