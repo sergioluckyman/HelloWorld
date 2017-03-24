@@ -9,6 +9,7 @@ import luxoft.zoo.Duck;
 import luxoft.zoo.Cat;
 import luxoft.zoo.Cell;
 import luxoft.zoo.ZooGarden;
+import luxoft.Wrapper.Tests;
 
 public class Main {
     private NewClass newClass = new NewClass();
@@ -80,7 +81,7 @@ public class Main {
         cat.produceSound();
         cell.placeAnimal(cat);
         */
-        ZooGarden  zooGarden = new ZooGarden();
+       /* ZooGarden  zooGarden = new ZooGarden();
         for (int i=0; i<5; i++)
         {
             Cell cell = new Cell();
@@ -91,7 +92,7 @@ public class Main {
             cell.placeAnimal(duck);
             System.out.println();
         }
-        zooGarden.printNames();
+        zooGarden.printNames();*/
 
         /*Duck  duck = new Duck();
         duck.setAge(10);
@@ -111,7 +112,8 @@ public class Main {
         System.out.println();
         Cat cat2 = new Cat("Kolya","RED");
         */
-
+ Tests tests = new Tests();
+ tests.test();
     }
 
     public static void hello() {
